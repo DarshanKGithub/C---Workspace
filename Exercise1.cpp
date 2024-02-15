@@ -19,8 +19,9 @@ int main()
     double sales = 9500;
     double salesTax = 0.4;
     double countyTax = 0.2;
+    double stateTax = sales + countyTax;
 
-    cout << "\nsales:$" << sales << "\nsalesTax:" << sales * salesTax << "\ncountyTax:" << sales * countyTax << endl;
+    cout << "\nsales:$" << sales << "\nsalesTax:" << sales * salesTax << "\ncountyTax:" << sales * countyTax << "\nsalesTax:" << stateTax << endl;
 
     return 0;
 }
